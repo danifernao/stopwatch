@@ -27,7 +27,7 @@ jobs:
           cp -r dist/* wx3/stopwatch/
 
       - run: |
-          cd stopwatch
+          cd wx3
           git add .
           git commit -m "Actualiza carpeta 'stopwatch' desde repositorio 'stopwatch'" || echo "No hay cambios para registrar"
           git push

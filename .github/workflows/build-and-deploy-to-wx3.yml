@@ -1,4 +1,4 @@
-name: Build and Deploy to wx3
+name: Build and Deploy to WX3
 
 on:
   push:

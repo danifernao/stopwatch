@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import PropTypes from "prop-types";
 
 function Button({ icon, size, shape, title, onClick, disabled }) {
   return (
@@ -13,14 +12,5 @@ function Button({ icon, size, shape, title, onClick, disabled }) {
     </button>
   );
 }
-
-Button.propTypes = {
-  icon: PropTypes.string,
-  size: PropTypes.string,
-  shape: PropTypes.string,
-  title: PropTypes.string,
-  onClick: PropTypes.func,
-  disabled: PropTypes.bool,
-};
 
 export default Button;

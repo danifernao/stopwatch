@@ -4,7 +4,7 @@ Un cronómetro elaborado con React basado en la apariencia y comportamiento de l
 
 ![Captura de pantalla del cronómetro](/screenshot.png)
 
-### Instalación
+## Instalación
 
 1. Asegúrate de tener instalado Node.js y NPM.
 2. Descarga o clona este repositorio e ingresa a él.
@@ -14,7 +14,7 @@ Un cronómetro elaborado con React basado en la apariencia y comportamiento de l
 npm install
 ```
 
-### Visualización
+## Visualización
 
 Ubícate en la raíz del proyecto, abre el terminal en dicha ubicación y ejecuta lo siguiente para iniciar el entorno de desarrollo y visualizarlo en el explorador web:
 
@@ -22,7 +22,7 @@ Ubícate en la raíz del proyecto, abre el terminal en dicha ubicación y ejecut
 npm run dev
 ```
 
-### Producción
+## Producción
 
 Ubícate en la raíz del proyecto, abre el terminal en dicha ubicación y ejecuta lo siguiente para generar los archivos destinados a un entorno de producción:
 

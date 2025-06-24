@@ -1,4 +1,4 @@
-name: Build and Deploy to WX3
+name: Build and Deploy to project-showcase
 
 on:
   push:
@@ -19,15 +19,15 @@ jobs:
       - run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/danifernao/wx3.git
+          git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/danifernao/project-showcase.git
 
       - run: |
-          rm -rf wx3/stopwatch
-          mkdir -p wx3/stopwatch
-          cp -r dist/* wx3/stopwatch/
+          rm -rf project-showcase/stopwatch
+          mkdir -p project-showcase/stopwatch
+          cp -r dist/* project-showcase/stopwatch/
 
       - run: |
-          cd wx3
+          cd project-showcase
           git add .
           git commit -m "Actualiza carpeta 'stopwatch' desde repositorio 'stopwatch'" || echo "No hay cambios para registrar"
           git push
